@@ -1,0 +1,289 @@
+.logoimage {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+}
+
+.navbar {
+  background-color: gray !important;
+}
+.navbar-collapse {
+  padding-bottom: 10px;
+}
+#navItem1 {
+  font-family: "Roboto";
+  color: aliceblue;
+}
+a {
+  font-size: 1rem;
+  word-spacing: 15px;
+}
+a:hover {
+  font-size: 1rem;
+  color: cyan !important;
+  text-transform: uppercase;
+  text-wrap: wrap;
+  border-radius: 40%;
+}
+#navItem2 {
+  font-family: "Roboto";
+  color: aliceblue;
+}
+#navItem3 {
+  font-family: "Roboto";
+  color: aliceblue;
+}
+#navItem4 {
+  font-family: "Roboto";
+  color: aliceblue;
+}
+#navItem5 {
+  font-family: "Roboto";
+  color: aliceblue;
+}
+.background-img {
+  background-image: url("./images/portfoiloimg.jpg");
+  background-size: cover;
+  width: 105vw;
+}
+.image {
+  position: relative;
+  width: 83%;
+  margin-top: 10em;
+  animation-name: text;
+  animation-delay: 0.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 1s;
+  border-radius: 50%;
+}
+
+.text {
+  color: white;
+  animation-name: text;
+  animation-delay: 0.5s;
+
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.text-container {
+  margin-top: 5em !important;
+  color: white;
+  animation-name: text;
+  animation-delay: 0.5s;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes text {
+  0% {
+    color: white;
+    filter: drop-shadow(10px 5px 5px white);
+  }
+  20% {
+    color: antiquewhite;
+    filter: drop-shadow(10px 5px 5px antiquewhite);
+  }
+  40% {
+    color: bisque;
+    filter: drop-shadow(10px 5px 5px bisque);
+  }
+  60% {
+    color: burlywood;
+    filter: drop-shadow(10px 5px 5px burlywood);
+  }
+  80% {
+    color: chocolate;
+    filter: drop-shadow(10px 5px 5px chocolate);
+  }
+  100% {
+    color: coral;
+    filter: drop-shadow(10px 5px 5px coral);
+  }
+}
+
+.icon {
+  background-color: transparent;
+  height: 20px;
+  margin-left: 8px;
+}
+.icon:hover {
+  background-color: white;
+  border-radius: 40%;
+}
+.about {
+  text-decoration: underline;
+  color: black;
+  font-weight: 600;
+  text-shadow: 2px 0px 2px black;
+}
+.second-page {
+  background-color: honeydew;
+  background-size: cover;
+  margin-top: 5px;
+  color: black;
+  font-family: roboto;
+  font-weight: 500;
+  width: 105vw;
+}
+.second-page:hover {
+  font-weight: bolder;
+  transition: all 0.5s ease-in-out;
+}
+.skills-heading {
+  font-weight: 600;
+  margin-left: 5px;
+  text-transform: uppercase;
+  text-shadow: 1px 0px 3px black;
+}
+.skills {
+  width: 100%;
+  max-width: 600px;
+  opacity: 80%;
+  padding: 0 20px;
+}
+.skill-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: darkblue;
+  text-transform: uppercase;
+  text-shadow: 1px 0px 2px rgb(76, 74, 74);
+  margin: 20px 0;
+}
+.skill-bar {
+  background-color: khaki;
+  height: 14px;
+  width: 100%;
+  border-radius: 4px;
+}
+.skills:hover {
+  animation-name: skill-filter;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.skill-per {
+  background-color: coral;
+  height: 14px;
+  border-radius: 4px;
+}
+.skill-per::before {
+  content: attr(per);
+  position: relative;
+  padding: 4px 6px;
+  background-color: darkorange;
+  color: aliceblue;
+  border-radius: 5px;
+  top: -35px;
+  font-size: 12px;
+  left: 95%;
+}
+@keyframes skill-filter {
+  100% {
+    transform: scale(1.05);
+    opacity: 100%;
+  }
+}
+.css-image{
+  height: 150px;
+  width: 110px;
+  margin-left: 20px;
+}
+.html-image{
+  height: 150px;
+  width: 150px;
+  margin-left: 20px;
+}
+.script-image{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.py-image{
+  height: 120px;
+  width: 120px;
+}
+.html-image:hover{
+  transform: scale(1.07);
+}
+.css-image:hover{
+  transform: scale(1.07);
+}
+.script-image:hover{
+  transform: scale(1.07);
+}
+.py-image:hover{
+  transform: scale(1.07);
+}
+.project-container{
+  padding: 40px;
+  border-style: solid;
+  border-color:black;
+  background-color:white;
+  border-radius: 16px;
+}
+.project-container:hover{
+  background-color:black;
+  color:white;
+  border-color:bisque;
+  box-shadow: 10px 10px 5px gray;
+}
+.project-text{
+  font-size: 30px;
+  color:red;
+}
+.project-1{
+  height: 100px;
+  width: 100px;
+}
+.project-1:hover{
+  height: 300px;
+  width: 200px;
+}
+.project-2{
+  height: 100px;
+  width: 100px;
+}
+.project-2:hover{
+  height: 300px;
+  width: 200px;
+}
+.project-3{
+  height: 100px;
+  width: 100px;
+}
+.project-3:hover{
+  height: 300px;
+  width: 200px;
+}
+.project-heading {
+  font-weight: 600;
+  margin-left: 5px;
+  text-transform: uppercase;
+  text-shadow: 1px 0px 3px black;
+}
+.contact-text{
+    padding-top: 120px;
+    font-size: 30px;
+    color: aqua;
+    font-weight: 550;
+  }
+.text-me{
+    font-size: 15px;
+    padding-top:19px;
+    color: aqua;
+  }
+.bottom-text{
+    font-size: 10px;
+    margin-top: 25px;
+    font-weight: bold;
+    margin-left: 2px;
+  }
+.contact-page{
+    background-color:rgb(22, 145, 186);
+    height: 100%;
+  }
