@@ -3,7 +3,6 @@
   height: 3.5rem;
   border-radius: 50%;
 }
-
 .navbar {
   background-color: gray !important;
 }
@@ -50,61 +49,36 @@ a:hover {
   position: relative;
   width: 83%;
   margin-top: 10em;
-  animation-name: text;
-  animation-delay: 0.5s;
-  animation-timing-function: ease;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-duration: 1s;
-  border-radius: 50%;
+  border-radius: 25%;
+  transition-property: transform;
+}
+.image:hover{
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px gray;
 }
 
-.text {
-  color: white;
-  animation-name: text;
-  animation-delay: 0.5s;
 
-  animation-duration: 1s;
-  animation-timing-function: ease;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
 .text-container {
   margin-top: 5em !important;
   color: white;
-  animation-name: text;
-  animation-delay: 0.5s;
-  animation-duration: 1s;
-  animation-timing-function: ease;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+ animation-name: name;
+ animation-duration: 2s;
+ animation-timing-function: ease-in-out;
+ animation-iteration-count: 1;
+ animation-fill-mode: forwards;
+ font-family: roboto;
+ animation-direction: alternate;
 }
-@keyframes text {
-  0% {
-    color: white;
-    filter: drop-shadow(10px 5px 5px white);
-  }
-  20% {
-    color: antiquewhite;
-    filter: drop-shadow(10px 5px 5px antiquewhite);
-  }
-  40% {
-    color: bisque;
-    filter: drop-shadow(10px 5px 5px bisque);
-  }
-  60% {
-    color: burlywood;
-    filter: drop-shadow(10px 5px 5px burlywood);
-  }
-  80% {
-    color: chocolate;
-    filter: drop-shadow(10px 5px 5px chocolate);
-  }
-  100% {
-    color: coral;
-    filter: drop-shadow(10px 5px 5px coral);
+@keyframes name {
+  0%{
+    transform: scale(0);
+  }  
+  100%{
+    transform: scale(1.05);
+    color:aqua;
   }
 }
+
 
 .icon {
   background-color: transparent;
