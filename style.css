@@ -47,7 +47,7 @@ a:hover {
 }
 .image {
   position: relative;
-  width: 83%;
+  width: 80%;
   margin-top: 10em;
   border-radius: 25%;
   transition-property: transform;
